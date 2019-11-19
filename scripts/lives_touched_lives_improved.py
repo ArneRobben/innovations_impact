@@ -11,7 +11,7 @@ import pandas as pd
 import sys
 
 # Import other modules written for LTLI
-sys.path.append('C:/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/scripts')
+sys.path.append('/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/scripts')
 from argument_parser import ltli_argument_parser
 from argument_parser import print_selected_arguments
 import model_inputs
@@ -30,11 +30,11 @@ import reshape_for_graphs
 import exports
 
 # Set up directories, file names and analysis type
-DATA_DIR = 'C:/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/data/'
-GRAPH_DIR = 'C:/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/graphs/'
-OUTPUTS_DIR = 'C:/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/outputs/'
-BACKUP_DIR = 'C:/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/data/backup/'
-SLIDES_DIR = 'C:/Users/robbena/Wellcome Cloud/Innovations - Lives touched, lives improved model results/'
+DATA_DIR = '/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/data/'
+GRAPH_DIR = '/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/graphs/'
+OUTPUTS_DIR = '/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/outputs/'
+BACKUP_DIR = '/Users/robbena/OneDrive - Wellcome Cloud/My Documents/python/lives_touched_lives_improved/data/backup/'
+SLIDES_DIR = '/Users/robbena/Wellcome Cloud/Innovations - Lives touched, lives improved model results/'
 
 PARAM_CSV_NAME = 'LTLI_parameters.csv'
 ESTIMATES_CSV_NAME = 'LTLI_outputs_baseline.csv'
